@@ -12,7 +12,7 @@
 
 :root {
   --green: #77dd79;
-  --violet: #b19cd7;
+  --violet: #7f5af0;
   --sandal: #fae3cf;
   --fragBlue: #0a0f24;
   --red: #ba2233;
@@ -26,6 +26,7 @@
   font-family: "Blinker", sans-serif;
   margin: 0;
   scroll-behavior: smooth;
+  cursor: url(./images/mouse.svg), auto;
 
 }
 
@@ -65,5 +66,19 @@
 
   from {
     transform: rotate(180deg);
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
 }

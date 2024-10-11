@@ -8,7 +8,7 @@ function About() {
             <br /><br />
             <div className="about-area">
                 <div className="left-about-img">
-                    <img className='about-img' src={about} alt="" />
+                    <img className='about-img' src={about} alt="Fitness" />
                 </div>
 
                 <div className="right-about-content">

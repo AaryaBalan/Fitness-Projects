@@ -19,7 +19,7 @@ const Gallery = () => {
             <h1 className='gallery-head'>GALLERY</h1>
             <div className="gallery-area">
                 <div className="part-1">
-                    <img src={gallery1} alt="" className="part-1-img" />
+                    <img src={gallery1} alt="Fitness" className="part-1-img" />
                     <div className="gallery-popup">
                         <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                         <div className="popup-head">Best Fitness Gallery</div>
@@ -28,7 +28,7 @@ const Gallery = () => {
                 </div>
                 <div className="part-2">
                     <div className="part-2-img-1 subpart">
-                        <img src={gallery2} alt="" className="part-2-img gallery-img" />
+                        <img src={gallery2} alt="Fitness" className="part-2-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -37,7 +37,7 @@ const Gallery = () => {
                     </div>
 
                     <div className="part-2-img-2 subpart">
-                        <img src={gallery3} alt="" className="part-3-img gallery-img" />
+                        <img src={gallery3} alt="Fitness" className="part-3-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -48,7 +48,7 @@ const Gallery = () => {
 
                 <div className="part-3">
                     <div className="part-3-img-1 subpart">
-                        <img src={gallery4} alt="" className="part-4-img gallery-img" />
+                        <img src={gallery4} alt="Fitness" className="part-4-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -57,7 +57,7 @@ const Gallery = () => {
                     </div>
 
                     <div className="part-3-img-2 subpart">
-                        <img src={gallery5} alt="" className="part-5-img gallery-img" />
+                        <img src={gallery5} alt="Fitness" className="part-5-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -68,7 +68,7 @@ const Gallery = () => {
 
                 <div className="part-3 final">
                     <div className="part-3-img-1 subpart">
-                        <img src={gallery6} alt="" className="part-4-img gallery-img" />
+                        <img src={gallery6} alt="Fitness" className="part-4-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -77,27 +77,7 @@ const Gallery = () => {
                     </div>
 
                     <div className="part-3-img-2 subpart">
-                        <img src={gallery7} alt="" className="part-5-img gallery-img" />
-                        <div className="gallery-popup">
-                            <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
-                            <div className="popup-head">Best Fitness Gallery</div>
-                            <div className="popup-title">Fitness, body</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div className="part-3 final">
-                    <div className="part-3-img-1 subpart">
-                        <img src={gallery8} alt="" className="part-4-img gallery-img" />
-                        <div className="gallery-popup">
-                            <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
-                            <div className="popup-head">Best Fitness Gallery</div>
-                            <div className="popup-title">Fitness, body</div>
-                        </div>
-                    </div>
-
-                    <div className="part-3-img-2 subpart">
-                        <img src={gallery9} alt="" className="part-5-img gallery-img" />
+                        <img src={gallery7} alt="Fitness" className="part-5-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -108,7 +88,7 @@ const Gallery = () => {
 
                 <div className="part-3 final">
                     <div className="part-3-img-1 subpart">
-                        <img src={gallery10} alt="" className="part-4-img gallery-img" />
+                        <img src={gallery8} alt="Fitness" className="part-4-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>
@@ -117,7 +97,27 @@ const Gallery = () => {
                     </div>
 
                     <div className="part-3-img-2 subpart">
-                        <img src={gallery7} alt="" className="part-5-img gallery-img" />
+                        <img src={gallery9} alt="Fitness" className="part-5-img gallery-img" />
+                        <div className="gallery-popup">
+                            <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
+                            <div className="popup-head">Best Fitness Gallery</div>
+                            <div className="popup-title">Fitness, body</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="part-3 final">
+                    <div className="part-3-img-1 subpart">
+                        <img src={gallery10} alt="Fitness" className="part-4-img gallery-img" />
+                        <div className="gallery-popup">
+                            <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
+                            <div className="popup-head">Best Fitness Gallery</div>
+                            <div className="popup-title">Fitness, body</div>
+                        </div>
+                    </div>
+
+                    <div className="part-3-img-2 subpart">
+                        <img src={gallery7} alt="Fitness" className="part-5-img gallery-img" />
                         <div className="gallery-popup">
                             <div className="popup-icon"><i class="fa-solid fa-circle-right fa-2xl"></i></div>
                             <div className="popup-head">Best Fitness Gallery</div>

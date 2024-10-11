@@ -22,7 +22,7 @@ const Service = () => {
                         <div className="service-icon"><i class="fa-solid fa-dumbbell fa-2xl"></i></div>
                         <div className="service-card-title">QUALITY EQUIPMENT</div>
                         <div className="service-card-content">
-                            The sea freight service has grown consider ably in recent years. We spend timetting to kn.
+                            Complement your fitness routine with expert nutrition advice. Our nutrition coaches will help you create a balanced meal plan that fits your lifestyle.
                         </div>
                         <div className="service-hover-msg">
                             DISCOVER MORE ABOUT US
@@ -34,7 +34,7 @@ const Service = () => {
                         <div className="service-icon"><i class="fa-solid fa-hand-holding-heart fa-2xl"></i></div>
                         <div className="service-card-title">HEALTH CARING</div>
                         <div className="service-card-content">
-                            The sea freight service has grown consider ably in recent years. We spend timetting to kn.
+                            Join our diverse range of classes, including yoga, HIIT, spin, and more! Group classes are a fun way to stay motivated and meet new friends.
                         </div>
                         <div className="service-hover-msg">
                             DISCOVER MORE ABOUT US
@@ -47,7 +47,7 @@ const Service = () => {
                         <div className="service-icon"><i class="fa-solid fa-bullseye fa-2xl"></i></div>
                         <div className="service-card-title">GYM STRATEGIES</div>
                         <div className="service-card-content">
-                            The sea freight service has grown consider ably in recent years. We spend timetting to kn.
+                            Get personalized workout plans and one-on-one coaching from our experienced trainers. Whether you want to lose weight, build muscle, or improve your overall fitness, we're here to help.
                         </div>
                         <div className="service-hover-msg">
                             DISCOVER MORE ABOUT US

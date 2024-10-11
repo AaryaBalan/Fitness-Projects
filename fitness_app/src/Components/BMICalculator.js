@@ -6,6 +6,18 @@ const BMICalculator = () => {
     const [height, setHeight] = useState("");
     const [weight, setWeight] = useState("");
     const [bmiResult, setBmiResult] = useState(null);
+    let result = ""
+    if (bmiResult <= 18) {
+        result = "Under Weight, Join in our gym and buid perfect body"
+    }
+    else if (bmiResult > 18 && bmiResult <= 25) {
+        result = "Normal, Join in our gym and enjoy"
+    }
+    else {
+        result = "Over Weight, Join in our gym and build your future"
+    }
+
+
 
     const calculateBMI = () => {
         if (height && weight) {
@@ -22,7 +34,7 @@ const BMICalculator = () => {
             <div className="flex max-w-4xl bg-gray-100 rounded-lg shadow-xl overflow-hidden mx-4 md:mx-0 transition-transform transform hover:scale-105 calc-bg">
                 {/* Left Side - BMI Form */}
                 <div className="p-8 flex-1">
-                    <h1 className="text-4xl font-bold text-left mb-6">
+                    <h1 className="text-4xl font-bold text-left mb-6 calc-text">
                         CALCULATE <span className="text-green-400">YOUR BMI</span>
                     </h1>
                     <p className="text-gray-300 text-left mb-6 calc-text">
@@ -66,6 +78,7 @@ const BMICalculator = () => {
                         <div className="mt-6 p-4 bg-gray-700 text-center rounded-md">
                             <h2 className="text-xl font-semibold text-green-500">Your BMI is:</h2>
                             <p className="text-3xl font-bold text-white">{bmiResult}</p>
+                            <p className="msg">{result}</p>
                         </div>
                     )}
                 </div>
@@ -81,6 +94,7 @@ const BMICalculator = () => {
             </div>
         </div>
     );
-};
+}
+
 
 export default BMICalculator;

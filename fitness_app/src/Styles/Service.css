@@ -10,7 +10,6 @@
     justify-content: center;
     position: relative;
     min-height: 100vh;
-    z-index: 100;
 }
 
 .service-area::before {
@@ -73,7 +72,7 @@
     text-align: justify;
     animation: flipCard;
     animation-timeline: view();
-    animation-range: entry 0 cover 50%;
+    animation-range: entry 0 cover 40%;
     transition: 2s;
 }
 
@@ -101,7 +100,7 @@
     bottom: 0;
     text-align: center;
     transition: .18s;
-    
+
 }
 
 
@@ -111,5 +110,5 @@
 }
 
 .fa-right-long {
-    cursor: pointer;
+    cursor: url(../images/mouse_pointer.svg), auto;
 }
