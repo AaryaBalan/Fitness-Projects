@@ -1,19 +1,23 @@
-:root {
-    --red: #ba2233;
+/* :root {
+    --green: #ba2233;
     --orange: #f98603;
     --sandal: #fae3cf;
     --fragBlue: #0a0f24;
-}
+} */
 
-.navbar-fragment{
+.navbar-fragment {
     background-color: #030005;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: var(--red);
+    background-color: var(--green);
     padding: 30px 10px;
+}
+
+video {
+    width: 100%;
 }
 
 .left-nav {
@@ -41,6 +45,7 @@ nav {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: fade 1s;
 }
 
 .team-name {
@@ -53,7 +58,7 @@ nav {
     position: absolute;
     top: 170px;
     margin-left: 20px;
-    color: var(--red);
+    color: var(--green);
     font-weight: bolder;
     font-size: 5vw;
     animation: load 1s;
@@ -64,4 +69,3 @@ nav {
     animation-timeline: view();
     animation-range: entry 0 cover 17%;
 }
-

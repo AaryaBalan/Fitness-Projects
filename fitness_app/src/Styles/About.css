@@ -9,6 +9,7 @@
     align-items: center;
     column-gap: 30px;
     animation: load;
+    /* animation: fade; */
     animation-timeline: view();
     animation-range: entry 0 cover 90%;
 }
@@ -23,14 +24,18 @@
     line-height: 1.4;
 }
 
+.about-img:hover {
+    filter: grayscale(100%);
+}
+
 .about-gym {
-    color: var(--orange);
+    color: var(--violet);
     font-size: 50px;
     font-weight: bold;
 }
 
 .about-head {
-    color: var(--red);
+    color: var(--green);
 }
 
 .about-primary-content {
@@ -44,7 +49,7 @@
 }
 
 .become-member-btn {
-    background-color: var(--orange);
+    background-color: var(--violet);
     color: var(--fragBlue);
     padding: 5px 50px;
     font-weight: bolder;
