@@ -7,7 +7,7 @@ video {
     width: 100%;
 }
 
-.brand{
+.brand {
     display: flex;
     align-items: center;
     column-gap: 30px;
@@ -19,7 +19,7 @@ video {
     font-weight: bold;
 }
 
-.right-nav a{
+.right-nav a {
     color: var(--green);
     text-decoration: none;
 }
@@ -30,7 +30,7 @@ video {
     text-decoration: none;
 }
 
-video{
+video {
     animation: load 1s;
 }
 
@@ -58,4 +58,57 @@ video{
     font-weight: bolder;
     font-size: 5vw;
     animation: load 1s;
+}
+
+@keyframes load {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        clip-path: inset(0 100% 0 0);
+        filter: grayscale(100%);
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+        clip-path: inset(0 0 0 0);
+        filter: grayscale(0);
+    }
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        clip-path: inset(0 0 0 100%);
+    }
+
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes flipCard {
+    to {
+        transform: rotate(0deg);
+    }
+
+    from {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
